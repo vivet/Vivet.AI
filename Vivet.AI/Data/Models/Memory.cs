@@ -13,7 +13,7 @@ public class Memory : BaseEmbedding
     /// <summary>
     /// Gets or sets the identifier of the agent associated with this memory.
     /// </summary>
-    [RequiredOneOf(nameof(this.UserId))]
+    [RequiredOneOf(nameof(UserId))]
     [VectorStoreData(IsIndexed = true)]
     public virtual string AgentId { get; set; }
 
@@ -21,7 +21,7 @@ public class Memory : BaseEmbedding
     /// Gets or sets the identifier of the user associated with this memory.
     /// This property is required and indexed for text search.
     /// </summary>
-    [RequiredOneOf(nameof(this.AgentId))]
+    [RequiredOneOf(nameof(AgentId))]
     [VectorStoreData(IsIndexed = true)]
     public virtual string UserId { get; set; }
 
