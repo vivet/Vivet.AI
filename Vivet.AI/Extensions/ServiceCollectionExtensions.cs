@@ -25,6 +25,7 @@ using Vivet.AI.Models.Enums;
 using Vivet.AI.Services;
 using Vivet.AI.Services.Interfaces;
 using ChatOptions = Vivet.AI.Config.ChatOptions;
+using TranscriptionOptions = Vivet.AI.Config.TranscriptionOptions;
 
 namespace Vivet.AI.Extensions;
 

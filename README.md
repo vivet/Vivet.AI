@@ -13,7 +13,7 @@ Build **smarter, faster, and context-aware AI experiences** with minimal boilerp
 
 The library supports **all major orchestration frameworks** and a variety of **vector stores** for memory and knowledge management. 
 Every service follows a **request/response pattern**, includes **token and performance tracking**, and allows **per-request 
-configuration overrides**.  
+configuration overrides**.   
 
 _Based on [Microsoft.SemanticKernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/)_.  
 

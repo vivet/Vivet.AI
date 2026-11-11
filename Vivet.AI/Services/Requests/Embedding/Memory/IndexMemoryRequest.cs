@@ -31,13 +31,13 @@ public class IndexMemoryRequest<T> : BaseIndexRequest<MemoryIndexConfigOverrides
     /// <summary>
     /// The ID of the user creating the memory entry.
     /// </summary>
-    [RequiredOneOf(nameof(this.UserId))]
+    [RequiredOneOf(nameof(UserId))]
     public virtual Guid? UserId { get; set; }
 
     /// <summary>
     /// The ID of the user creating the memory entry.
     /// </summary>
-    [RequiredOneOf(nameof(this.AgentId))]
+    [RequiredOneOf(nameof(AgentId))]
     public virtual Guid? AgentId { get; set; }
 
     /// <summary>
