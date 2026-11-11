@@ -29,8 +29,7 @@
 		<RepositoryType>git</RepositoryType>
 		<RepositoryType>GitHub</RepositoryType>
 		<PackageReleaseNotes>
-			- Preview release
-			- Free for non-commercial use. Commercial use requires a license
+			- Changed to Trusted publishing for NuGet
 		</PackageReleaseNotes>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
